@@ -1,6 +1,12 @@
 @import "tailwindcss";
 
+* {
+  outline: 0;
+}
+
 @theme {
+  --font-display: "Roboto", "sans-serif";
+
   --color-white: #fff;
   --color-black: #000;
 
